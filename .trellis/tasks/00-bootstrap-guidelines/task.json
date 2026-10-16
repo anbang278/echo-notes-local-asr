@@ -1,0 +1,35 @@
+{
+  "id": "00-bootstrap-guidelines",
+  "name": "00-bootstrap-guidelines",
+  "title": "仓库与研发脚手架初始化",
+  "description": "按用户批准方案建立独立公开仓库、Trellis 规范、检查和 M0 交接。",
+  "status": "in_progress",
+  "dev_type": "docs",
+  "scope": null,
+  "package": null,
+  "priority": "P1",
+  "creator": "anbang",
+  "assignee": "anbang",
+  "createdAt": "2026-10-16",
+  "completedAt": null,
+  "branch": null,
+  "base_branch": null,
+  "worktree_path": null,
+  "commit": null,
+  "pr_url": null,
+  "subtasks": [],
+  "children": [],
+  "parent": null,
+  "relatedFiles": [
+    "AGENTS.md",
+    "docs/DEVELOPMENT.md",
+    "scripts/check.sh"
+  ],
+  "notes": "First-time setup task created by trellis init (fullstack project)",
+  "meta": {
+    "scope_approved": true,
+    "implementation_owner": "Codex",
+    "approval_date": "2026-10-16",
+    "approval_evidence": "用户完整引用初始化方案并要求 PLEASE IMPLEMENT THIS PLAN；应用 M0 未授权实施。"
+  }
+}

@@ -1,0 +1,10 @@
+# Project overrides; upstream CLI version is recorded in .version.
+session_commit_message: "chore: record journal"
+max_journal_lines: 2000
+session_auto_commit: false
+codex:
+  dispatch_mode: inline
+channel:
+  worker_guard:
+    idle_timeout: 5m
+    max_live_workers: 1

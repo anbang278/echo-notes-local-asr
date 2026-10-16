@@ -1,0 +1,51 @@
+{
+  "id": "m0-baseline-packaging",
+  "name": "m0-baseline-packaging",
+  "title": "M0：基线与最小打包可行性",
+  "description": "固定上游迁移基线，验证自包含 Python/MLX/解码运行包，记录支持矩阵、签名条件和数据目录；本次仅规划，等待应用实施授权。",
+  "status": "planning",
+  "dev_type": "fullstack",
+  "scope": "m0-baseline-packaging",
+  "package": null,
+  "priority": "P1",
+  "creator": "anbang",
+  "assignee": "pi",
+  "createdAt": "2026-10-16",
+  "completedAt": null,
+  "branch": null,
+  "base_branch": "main",
+  "worktree_path": null,
+  "commit": null,
+  "pr_url": null,
+  "subtasks": [],
+  "children": [],
+  "parent": null,
+  "relatedFiles": [
+    "docs/DEVELOPMENT.md",
+    "docs/DEVELOPMENT_PLAN.md",
+    "docs/ARCHITECTURE.md"
+  ],
+  "notes": "",
+  "meta": {
+    "planning_owner": "Codex",
+    "implementation_owner": "Pi",
+    "planning_review": "prepared",
+    "implementation_approved": false,
+    "implementation_started": false,
+    "handoff_status": "awaiting_pi",
+    "source_baseline": "8eb08fc0481d794a62416d535c949c4a3ba9e8b1",
+    "planned_branch": "pi/m0-baseline-packaging",
+    "planned_worktree": "$HOME/.local/share/echo-notes-local-asr/worktrees/m0-baseline-packaging",
+    "approval_evidence": "2026-10-16 用户批准初始化方案；M0 仅准备，未授权应用实施",
+    "artifacts": [
+      "prd.md",
+      "design.md",
+      "implement.md",
+      "test-plan.md",
+      "handoff.md",
+      "implement.jsonl",
+      "check.jsonl",
+      "research/baseline.md"
+    ]
+  }
+}
