@@ -108,10 +108,6 @@
 .trellis/spec/protocol-security/index.md
 .trellis/spec/quality-release/index.md
 .trellis/spec/runtime/index.md
-.trellis/tasks/00-bootstrap-guidelines/check.jsonl
-.trellis/tasks/00-bootstrap-guidelines/implement.jsonl
-.trellis/tasks/00-bootstrap-guidelines/prd.md
-.trellis/tasks/00-bootstrap-guidelines/task.json
 .trellis/tasks/10-16-m0-baseline-packaging/check.jsonl
 .trellis/tasks/10-16-m0-baseline-packaging/design.md
 .trellis/tasks/10-16-m0-baseline-packaging/handoff.md
@@ -121,6 +117,10 @@
 .trellis/tasks/10-16-m0-baseline-packaging/research/baseline.md
 .trellis/tasks/10-16-m0-baseline-packaging/task.json
 .trellis/tasks/10-16-m0-baseline-packaging/test-plan.md
+.trellis/tasks/archive/2026-10/00-bootstrap-guidelines/check.jsonl
+.trellis/tasks/archive/2026-10/00-bootstrap-guidelines/implement.jsonl
+.trellis/tasks/archive/2026-10/00-bootstrap-guidelines/prd.md
+.trellis/tasks/archive/2026-10/00-bootstrap-guidelines/task.json
 .trellis/workflow.md
 .trellis/workspace/index.md
 AGENTS.md
@@ -133,6 +133,7 @@ docs/CODEX_HANDOFF.md
 docs/DESIGN.md
 docs/DEVELOPMENT.md
 docs/DEVELOPMENT_PLAN.md
+docs/INITIALIZATION.md
 docs/SOURCES.md
 scripts/check.sh
 scripts/check_public_files.py

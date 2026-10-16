@@ -6,7 +6,7 @@
 
 仓库：[anbang278/echo-notes](https://github.com/anbang278/echo-notes)
 
-本次 GitHub 主分支核验提交：`8eb08fc0481d794a62416d535c949c4a3ba9e8b1`；该提交的 manifest 为 `0.4.40`。引用固定提交，避免把未来 main 的变化当作本次已经检查。
+原初始化资料引用的 GitHub 主分支核验提交：`8eb08fc0481d794a62416d535c949c4a3ba9e8b1`；该提交的 manifest 为 `0.4.40`。引用固定提交，避免把未来 main 的变化当作本次已经检查。
 
 | 文件 | 本次设计使用的事实 | 不应推出的结论 |
 |---|---|---|
@@ -18,7 +18,7 @@
 | [本地客户端任务协议](https://github.com/anbang278/echo-notes/blob/8eb08fc0481d794a62416d535c949c4a3ba9e8b1/src/providers/local-mlx-jobs.ts) | v1 与服务标识校验；专用端口判断为 18080/18081 | 只换端口或服务名就能继续恢复任务 |
 | [本地模型文档](https://github.com/anbang278/echo-notes/blob/8eb08fc0481d794a62416d535c949c4a3ba9e8b1/docs/local-model-transcription.md) | 仓库记录有部分自然会议测试，同时明确未做完整 3 小时真实推理验收 | 本次已独立复测或已支持所有长录音 |
 
-读取方式为 GitHub 文档和代码核验；本次没有运行旧服务、读取个人录音或操作用户 Mac。代码移入新仓库时仍需重新检查版权、依赖、测试与当前状态。
+原资料的读取方式为 GitHub 文档和代码核验。2026-10-16 本机初始化进一步只读核验了该 Git 提交与候选文件 blob，见 M0 research/baseline.md；没有运行旧服务或读取个人录音。代码移入新仓库时仍需重新检查版权、依赖、测试与当前状态。
 
 ## S2 MLX-Audio
 
@@ -65,4 +65,4 @@
 
 - [GitHub CLI — gh repo create](https://cli.github.com/manual/gh_repo_create)
 
-初始化脚本采用官方 `--public`、`--source`、`--remote` 和 `--push` 参数。脚本在本次环境只做本地与模拟测试；没有通过已认证 GitHub CLI 实际创建远端仓库。
+初始化脚本采用官方 `--public`、`--source`、`--remote` 和 `--push` 参数。脚本在原初始化包阶段仅做模拟测试；本次已通过认证 GitHub CLI 创建公开仓库、推送并读回核验，见 [初始化记录](INITIALIZATION.md)。

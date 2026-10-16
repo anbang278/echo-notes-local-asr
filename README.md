@@ -66,11 +66,13 @@ bash scripts/check.sh
 
 本入口检查公开清单、文档、初始化脚本模拟和任务引用，不安装 ASR，不验证模型或 Mac 应用。应用构建命令由 M0 实验确定。个人身份与 journals、运行态、原始 ZIP／汇总资料保留本地并被忽略。Codex hooks 是否启用仍取决于宿主信任和人工批准。
 
-初始化远端状态：本地工件准备中，真实 GitHub 创建及 CI 结果待核验。发布证据见后续更新。
+**初始化已完成：**[GitHub 公开仓库](https://github.com/anbang278/echo-notes-local-asr)，默认分支 main；首个提交 `ef79de94e290ebc46cebe80c983dfd2d4335069c` 已读回核验，[首次 GitHub Actions](https://github.com/anbang278/echo-notes-local-asr/actions/runs/38864939703) 通过。本地 17 项测试、公开文件检查、文档与任务校验通过，独立复核通过。详见 [初始化验收记录](docs/INITIALIZATION.md)。
 
-## 初始化公开仓库
+初始化完成只代表仓库和研发流程就绪；应用 M0 仍待实施授权。后续提交的检查结果见仓库 Actions。
 
-目标仓库标识：`anbang278/echo-notes-local-asr`。辅助脚本仅用于首次创建仓库，不用于安装 ASR。
+## 首次建库脚本（已执行）
+
+目标仓库标识：`anbang278/echo-notes-local-asr`。本仓库已创建，以下命令仅记录首次建库流程，当前目录不要重复执行 --publish。辅助脚本拒绝既有 Git 元数据，不用于安装 ASR。
 
 ```bash
 # 在已安装并登录 GitHub CLI 的环境中执行。

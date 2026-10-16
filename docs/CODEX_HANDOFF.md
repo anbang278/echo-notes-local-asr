@@ -4,19 +4,13 @@
 
 Echo Notes 是 Obsidian 录音转写与知识处理插件。用户已经在自己的 Mac 上使用本地 ASR，现在希望其他 Mac 用户也能无需技术配置地完成本地部署和转写。
 
-新项目名为 **Echo Notes Local ASR**，计划公开仓库标识为 `anbang278/echo-notes-local-asr`。本次交付是初始化文档和建库脚本，不是已开发的 Mac 应用，也不是已创建远端仓库的证明。
+新项目名为 **Echo Notes Local ASR**，公开仓库 `anbang278/echo-notes-local-asr` 已创建，默认 main，初始化工件已推送并真实读回。当前交付包含文档、研发脚手架、检查与 M0 规划，尚无应用实现。
 
 ## 当前内容与阅读顺序
 
 先读 `README.md`、`AGENTS.md`、`docs/DESIGN.md`、`docs/ARCHITECTURE.md`、`docs/DEVELOPMENT_PLAN.md`、`docs/ACCEPTANCE.md`。上游基线与资料位于 `docs/SOURCES.md`。
 
-仓库创建是当前明确授权的目标：在具有 GitHub 建库能力的执行环境，先确认仓库不存在、账号为 `anbang278`，使用白名单初始化内容创建公开仓库并读回验证。可运行：
-
-```bash
-bash scripts/create-github-repo.sh --publish
-```
-
-不要把 GitHub 404 简单当作“肯定不存在”，它也可能表示访问不可见；创建动作若返回冲突或权限不足，应报告原始分类错误，不覆盖或改可见性。成功后更新 README 与研发计划中的建库状态，附真实 URL、提交 SHA 和公开状态。
+仓库与脚手架初始化已执行：首个提交 `ef79de94e290ebc46cebe80c983dfd2d4335069c`；[首次 CI](https://github.com/anbang278/echo-notes-local-asr/actions/runs/38864939703) 通过。完整范围和未验证项见 [初始化记录](INITIALIZATION.md)。已有仓库不要重复执行建库脚本；后续按当前任务的授权更新和推送。
 
 ## 本项目研发脚手架
 

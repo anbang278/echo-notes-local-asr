@@ -3,7 +3,7 @@
   "name": "00-bootstrap-guidelines",
   "title": "仓库与研发脚手架初始化",
   "description": "按用户批准方案建立独立公开仓库、Trellis 规范、检查和 M0 交接。",
-  "status": "in_progress",
+  "status": "completed",
   "dev_type": "docs",
   "scope": null,
   "package": null,
@@ -11,7 +11,7 @@
   "creator": "anbang",
   "assignee": "anbang",
   "createdAt": "2026-10-16",
-  "completedAt": null,
+  "completedAt": "2026-10-16",
   "branch": null,
   "base_branch": null,
   "worktree_path": null,
@@ -23,13 +23,19 @@
   "relatedFiles": [
     "AGENTS.md",
     "docs/DEVELOPMENT.md",
+    "docs/INITIALIZATION.md",
     "scripts/check.sh"
   ],
-  "notes": "First-time setup task created by trellis init (fullstack project)",
+  "notes": "初始化已完成并归档；M0 仍 planning。详见 docs/INITIALIZATION.md。",
   "meta": {
     "scope_approved": true,
     "implementation_owner": "Codex",
     "approval_date": "2026-10-16",
-    "approval_evidence": "用户完整引用初始化方案并要求 PLEASE IMPLEMENT THIS PLAN；应用 M0 未授权实施。"
+    "approval_evidence": "用户完整引用初始化方案并要求 PLEASE IMPLEMENT THIS PLAN；应用 M0 未授权实施。",
+    "remote_url": "https://github.com/anbang278/echo-notes-local-asr",
+    "bootstrap_commit": "ef79de94e290ebc46cebe80c983dfd2d4335069c",
+    "bootstrap_ci": "https://github.com/anbang278/echo-notes-local-asr/actions/runs/38864939703",
+    "bootstrap_ci_result": "success",
+    "tests_passed": 17
   }
 }
